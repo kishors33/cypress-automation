@@ -19,3 +19,7 @@
 // Alternatively you can use CommonJS syntax:
 require('./commands')
 
+// To generate report after test execution
+after(() => {
+    cy.task('generateReport')
+  })
