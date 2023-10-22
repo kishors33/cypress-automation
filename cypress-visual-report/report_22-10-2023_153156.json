@@ -1,0 +1,48 @@
+{
+  "total": 2,
+  "totalPassed": 0,
+  "totalFailed": 2,
+  "totalSuites": 2,
+  "suites": [
+    {
+      "name": "visual-capture.cy.ts",
+      "path": "cypress\\e2e\\3-visual-regression\\visual-capture.cy.ts",
+      "tests": [
+        {
+          "status": "fail",
+          "name": "visual-capture.cy-home-page",
+          "percentage": 0.17113793492701826,
+          "failureThreshold": 0,
+          "specPath": "cypress\\e2e\\3-visual-regression\\visual-capture.cy.ts",
+          "specFilename": "visual-capture.cy.ts",
+          "baselinePath": "cypress-visual-screenshots\\baseline\\visual-capture.cy-home-page.png",
+          "diffPath": "cypress-visual-screenshots\\diff\\visual-capture.cy-home-page.png",
+          "comparisonPath": "cypress-visual-screenshots\\comparison\\visual-capture.cy-home-page.png"
+        }
+      ]
+    },
+    {
+      "name": "visual-capture2.cy.ts",
+      "path": "cypress\\e2e\\3-visual-regression\\visual-capture2.cy.ts",
+      "tests": [
+        {
+          "status": "fail",
+          "name": "visual-capture2.cy-home-page",
+          "percentage": 0.1266211744168391,
+          "failureThreshold": 0,
+          "specPath": "cypress\\e2e\\3-visual-regression\\visual-capture2.cy.ts",
+          "specFilename": "visual-capture2.cy.ts",
+          "baselinePath": "cypress-visual-screenshots\\baseline\\visual-capture2.cy-home-page.png",
+          "diffPath": "cypress-visual-screenshots\\diff\\visual-capture2.cy-home-page.png",
+          "comparisonPath": "cypress-visual-screenshots\\comparison\\visual-capture2.cy-home-page.png"
+        }
+      ]
+    }
+  ],
+  "startedAt": "2023-10-22T14:31:56.644Z",
+  "endedAt": "2023-10-22T14:32:11.324Z",
+  "duration": 12851,
+  "browserName": "electron",
+  "browserVersion": "114.0.5735.289",
+  "cypressVersion": "13.3.2"
+}
